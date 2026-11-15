@@ -1,0 +1,16 @@
+[gd_resource type="Theme" format=3 uid="uid://b06c5l8t623q0"]
+
+[ext_resource type="StyleBox" uid="uid://clrlnptfso711" path="res://colormenu.tres" id="1_bsmre"]
+
+[sub_resource type="SystemFont" id="SystemFont_bjal3"]
+
+[resource]
+default_font = SubResource("SystemFont_bjal3")
+Button/colors/font_hover_pressed_color = Color(0.29411766, 0.69411767, 0.3647059, 1)
+Button/colors/font_pressed_color = Color(0.29411766, 0.69411767, 0.3647059, 1)
+Button/styles/hover = null
+PanelContainer/styles/panel = ExtResource("1_bsmre")
+RichTextLabel/colors/default_color = Color(1, 1, 1, 1)
+RichTextLabel/styles/background = null
+richtextlabeltitle/base_type = &"RichTextLabel"
+richtextlabeltitle/font_sizes/normal_font_size = 38
